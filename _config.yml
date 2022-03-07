@@ -171,4 +171,4 @@ google:
         content_header: false
         content_footer: false
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
