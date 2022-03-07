@@ -2,15 +2,14 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://ningxie1991.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+title: Ning Xie
+subtitle: "Software Developer"
+description: "Ning Xie's portfolio and personal blog"
+keywords: Ning Xie
 encoding: "utf-8"
-repository: mzlogin/mzlogin.github.io
+repository: ningxie1991/ningxie1991.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -51,12 +50,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Ning Xie
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: ningxie1991
+location: Zurich, Switzerland
+email: ningxie1991@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -64,31 +63,23 @@ email: chumpma@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: home
 
   -
-    href: /categories/
-    label: 分类
+    href: /CV/
+    label: CV
 
 #   -
 #     href: /archives/
-#     label: 归档
+#     label: archives
 
 #   -
 #     href: /open-source/
 #     label: 开源
 
   -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
-
-  -
     href: /about/
-    label: 关于
+    label: about
 
 # ---------------- #
 #       RSS        #
@@ -129,26 +120,16 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+#gitalk:
+#    owner: mzlogin
+#    repo: blog-comments
+#    clientID: d2e1cbbd298958076462
+#    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://utteranc.es/
-utterances:
-    repo: mzlogin/blog-comments
+#utterances:
+#    repo: mzlogin/blog-comments
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+#lazy_load_disqus : false
 
 # ---------------- #
 #      Search      #
@@ -171,4 +152,4 @@ google:
         content_header: false
         content_footer: false
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
