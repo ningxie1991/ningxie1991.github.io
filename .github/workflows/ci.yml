@@ -3,8 +3,6 @@ name: Build and Deploy
 on:
   push:
     branches: [ master ]
-    paths: 
-        - "version2/**"
 
 jobs:
   build-and-deploy:
