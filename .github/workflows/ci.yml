@@ -3,10 +3,15 @@ name: Build and Deploy
 on:
   push:
     branches: [ master ]
+    paths: 
+        - "version2/**"
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./version2
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.1
