@@ -1,16 +1,26 @@
 # Site settings
 title: Ning Xie
-description: A blog about lorem ipsum dolor sit amet
+description: Portfolio, Personal Blog
 baseurl:
 url: https://ningxie1991.github.io/
+repository: ningxie1991/ningxie1991.github.io
 
+components:
+    # My Popular Repositories
+    side_bar_repo:
+        enabled: true
+        limit: 3
+        
 # User settings
 username: Ning Xie
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
+user_description: I am an experienced full-stack software engineer who constantly seeks out innovative solutions to everyday problems. In my five years in the FinTech industry, I have matured my collaboration skills, software engineering practices and analytical thinking in a dynamic global working environment. Currently I am pursuing a master's degree at the University of Zurich with a focus in Human-Computer Interaction and Artificial Intelligence.
+user_title: Software Engineer
 email: ningxie1991@gmail.com
 github_username:  ningxie1991
 
+plugins:
+    - jekyll-github-metadata
+    
 # Google-analytics
 google-analytics:
   id: ""
